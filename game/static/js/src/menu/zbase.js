@@ -5,11 +5,11 @@ class AcGameMenu{
 <div class="ac-game-menu">
     <div class="ac-game-menu-field">
         <div class="ac-game-menu-field-item ac-game-menu-field-item-single-mode">
-            Solo Mode
+            Solo
         </div>
         <br>
         <div class="ac-game-menu-field-item ac-game-menu-field-item-multi-mode">
-            Party Mode
+            Party
         </div>
         <br>
         <div class="ac-game-menu-field-item ac-game-menu-field-item-settings">
