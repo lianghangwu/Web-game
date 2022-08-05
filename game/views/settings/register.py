@@ -25,7 +25,7 @@ def register(request):
     user = User(username=username)
     user.set_password(password)
     user.save()
-    Player.objects.create(user=user, photo="https://i1.sndcdn.com/artworks-000054750804-1wotc8-t500x500.jpg")
+    Player.objects.create(user=user, photo="https://cdn.donmai.us/original/b3/f3/b3f3a27013d6299c8f341af72bbf686d.jpg")
     login(request, user)
     return JsonResponse({
             'result': "success"
