@@ -240,6 +240,7 @@ class Settings {
         let outer = this;
 
         this.root.AcWingOS.api.oauth2.authorize(appid, redirect_uri, scope, state, function(resp) {
+            console.log("called from acapp_login function")
             console.log(resp);
             if(resp.result === "success") {
                 outer.username = resp.username;
