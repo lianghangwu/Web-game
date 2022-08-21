@@ -8,7 +8,6 @@ class AcGameObject {
         this.timedelta = 0;  // The interval between the current frame and the last frame
         this.uuid = this.create_uuid();
 
-        // console.log(this.uuid);
     }
 
     create_uuid() {
